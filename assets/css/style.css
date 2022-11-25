@@ -1,0 +1,131 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-image: url(/drilling10/assets/img/fondo.jpg);
+  background-repeat: no-repeat;
+}
+header ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+    text-decoration: none;
+    color:black;
+}
+section {
+  width: 100%;
+  height: 40%;
+  padding-top: 10%;
+  text-align: center;
+}
+.caja {
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+#info1 {
+  background-color: yellowgreen;
+}
+#info1 p {
+  background-color: yellowgreen;
+}
+#info2 {
+  background-color: yellow;
+}
+#info2 p {
+  background-color: yellow;
+}
+#info3 {
+  background-color: red;
+}
+#info3 p {
+  background-color: red;
+}
+#info4 {
+  background-color: blue;
+}
+#info4 p {
+  background-color: blue;
+}
+#info5 {
+  background-color: cadetblue;
+}
+#info5 p {
+  background-color: cadetblue;
+}
+#info6 {
+  background-color: greenyellow;
+}
+#info6 p {
+  background-color: greenyellow;
+}
+
+.parrafo {
+  width: 300px;
+  height: 70px;
+}
+.parrafo h1 {
+  position: relative;
+}
+.parrafo p {
+  transform: translateY(-100%) scaleY(0);
+  transition: 1s;
+}
+
+.parrafo h1:hover ~ p {
+  position: relative;
+  transform: translateY(0) scale(1);
+}
+#n2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #0A9B17;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    color: rgb(244, 240, 240);
+}
+
+#ubi{
+    display: flex;
+    margin-left: 8%;
+}
+.mapas{
+    width: 45%;
+    margin: 3px;
+    border: .3px solid white;
+    
+}
+.mapas img{
+    max-width: 100%;
+}
+
+.mapas .conten{
+    padding: 0%;
+}
+#fin{
+    width: 100%;
+    height: 10%;
+    background-image: url(/drilling10/assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: auto;
+}
